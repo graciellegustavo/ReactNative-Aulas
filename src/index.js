@@ -17,7 +17,29 @@ const App = () => {
     )
 }
 
+const AppExercicio = () => {
+    const estiloFundo = { marginTop: 12, paddingTop: 8, paddingBottom: 8, backgroundColor: 'lightGray', width: '100%', borderStyle: 'none', borderRadius: 8 }
+    const estiloCard = { marginTop: 12, paddingTop: 8, paddingBottom: 8, backgroundColor: 'green', width: '50px', borderStyle: 'none', borderRadius: 8 }
+    const meuCard = (
+        <div style ={estiloCard}>
+            teste
+        </div>
+        )
+        
+    return (
+        <div style={estiloFundo}>
+            {meuCard}
+
+            {/* <label className="rotulo" style={{ display: 'block', marginBottom: 4 }} >
+                {textoDoRotulo}
+            </label>
+            <input id="nome" type="text" style={{ paddingTop: 8, paddingBottom: 8, borderStyle: 'hidden', borderRadius: 8, width: '100%', boxSizing: 'border-box' }} />
+            <button style={estiloBotao}>{obterTextoDoBotao()}</button> */}
+        </div>
+    )
+}
+
 ReactDOM.render(
-    <App />,
+    <AppExercicio />,
     document.querySelector("#root")
 )

@@ -18,23 +18,23 @@ const App = () => {
 }
 
 const AppExercicio = () => {
-    const estiloFundo = { marginTop: 12, paddingTop: 8, paddingBottom: 8, backgroundColor: 'lightGray', width: '100%', borderStyle: 'none', borderRadius: 8 }
-    const estiloCard = { marginTop: 12, paddingTop: 8, paddingBottom: 8, backgroundColor: 'green', width: '50px', borderStyle: 'none', borderRadius: 8 }
+    const estiloFundo = { marginTop: 12, paddingTop: '5%', paddingBottom: '2%' ,backgroundColor: 'lightGray', width: '100%', borderStyle: 'none', borderRadius: 8 }
     const meuCard = (
-        <div style ={estiloCard}>
-            teste
+        <div className='myCard'>
+            3
+            {/* <img src=''></img> */}
         </div>
         )
         
+    const estiloTitulo = { verticalAlign : 'center', textAlign : 'center' }
     return (
         <div style={estiloFundo}>
-            {meuCard}
-
-            {/* <label className="rotulo" style={{ display: 'block', marginBottom: 4 }} >
-                {textoDoRotulo}
-            </label>
-            <input id="nome" type="text" style={{ paddingTop: 8, paddingBottom: 8, borderStyle: 'hidden', borderRadius: 8, width: '100%', boxSizing: 'border-box' }} />
-            <button style={estiloBotao}>{obterTextoDoBotao()}</button> */}
+            1
+            <p style={estiloTitulo}>Profissionais da saúde</p>
+            <div style={{ margin : 'auto' , paddingTop: '10%', paddingBottom: '2%' , borderColor : 'darkGray', borderStyle : 'solid', borderRadius : 8 }}>
+                2
+                {meuCard}
+            </div>
         </div>
     )
 }

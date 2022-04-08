@@ -40,7 +40,7 @@ const AppExercicio = () => {
             <div style={{display: 'flex', justifyContent:'space-around', margin : 10, padding: 10, paddingBottom: '2%' , borderColor : 'darkGray', borderStyle : 'solid', borderRadius : 8 }}>
                 {meuCard(homemRosa, 'José da Silva')}
                 {meuCard(medicoVelho, 'João da Silva')}
-                {meuCard(medicaCovid, 'Jaqueline Mendes')}
+                {meuCard("https://www.imexmedicalgroup.com.br/wp-content/uploads/2020/10/IMEXpostblog-prevencao_CAPA-BLOG-1024x542.jpg", 'Jaqueline Mendes')}
             </div>
         </div>
     )
